@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #custom-container {
+        background-color: rgb(37, 27, 27);
+        height: 100vh;
+        color: white;
+        text-align: center;
+      }
+      .custom-logo-border {
+        border: 0px solid white;
+        height: 200px;
+        width: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+      .custom-logo-border > div {
+        height: 15px;
+        border: 1px solid white;
+        opacity: 0.5;
+      }
+      #custom-container > div > div:last-child {
+        rotate: 90deg;
+        translate: 0px -200px;
+      }
+      #custom-container > div:first-child {
+        width: 200px;
+        height: 200px;
+        rotate: 45deg;
+        translate: 50px 50px;
+      }
+      #custom-container > div:last-child {
+        display: inline-block;
+        position: absolute;
+        top: 90px;
+        left: 70px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="custom-container">
+      <div>
+        <div class="custom-logo-border">
+          <div style="background-color: orange"></div>
+          <div style="background-color: rgb(0, 200, 255)"></div>
+        </div>
+        <div class="custom-logo-border">
+          <div style="background-color: seashell"></div>
+          <div style="background-color: rgb(157, 247, 157)"></div>
+        </div>
+      </div>
+      <div>
+        <h2>HTML <span style="color: orange">&</span> CSS</h2>
+        <p>design and build websites</p>
+      </div>
+    </div>
+    <!-- <img src="./WhatsApp Image 2023-09-20 at 10.48.12.jpeg" alt="" /> -->
+  </body>
+</html>
