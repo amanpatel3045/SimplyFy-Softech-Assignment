@@ -91,6 +91,6 @@ console.log(route.join(" -> "));
 ```
 
 ### Running this code will output the route your son traveled, starting from Kiev and visiting all the mentioned cities.
-This code provides a solution to the problem of finding a travel route using available train tickets, demonstrating how to represent and traverse the data without the need for a graph data structure.
+
 
 
